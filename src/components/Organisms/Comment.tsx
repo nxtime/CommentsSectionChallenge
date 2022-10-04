@@ -11,7 +11,8 @@ const Comment = ({ data }: any) => {
             {
                 confirmation === 'asking' &&
                 <Modal>
-                    <div className="bg-white p-6 flex flex-col gap-4 w-11/12 rounded-xl">
+                    <div className="bg-white ls
+                    p-6 flex flex-col gap-4 w-11/12 rounded-xl">
                         <h2 className="text-xl font-bold text-gray-800">Delete comment</h2>
                         <p className="text-lg text-gray-600">Are you sure you want to delete this comment? This will remove the comment and can't be undone</p>
                         <div className="flex justify-evenly">
