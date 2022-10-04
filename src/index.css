@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    outline: none;
+}
+
+body {
+    position: relative;
+}
+
+#modal-root {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
